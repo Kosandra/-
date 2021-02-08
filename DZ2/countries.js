@@ -24,7 +24,7 @@ for ( let key in country){
     sr = sum / kol;
     sr = Math.round(sr)
 }
-if ( sr < 0)
+if ( sr <= 0)
     alert("Средняя температура всех стран около " + sr);
   else
         alert("Средняя температура всех стран около +" + sr);
